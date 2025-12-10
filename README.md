@@ -7,9 +7,9 @@ This repository features advanced data visualization projects and analysis techn
 ## Project Highlights
 
 **Interactive Data Dashboards – Academic Project**  
-Developed dynamic data dashboards using modern visualization libraries, enabling real-time data exploration for complex datasets.  
-Leveraged Python and visualization tools (e.g., Plotly, Matplotlib, Seaborn) to build interactive and insightful visualizations.  
-Showcased the ability to turn raw data into compelling visuals, supporting analysis and strategic decisions.
+- Developed dynamic data dashboards using modern visualization libraries, enabling real-time data exploration for complex datasets.  
+- Leveraged Python and visualization tools (e.g., Plotly, Matplotlib, Seaborn) to build interactive and insightful visualizations.  
+- Showcased the ability to turn raw data into compelling visuals, supporting analysis and strategic decisions.
 
 ---
 
