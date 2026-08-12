@@ -1,78 +1,36 @@
-# Advanced Visual Analytics
+# Advanced-Visual-Analytics
 
-This repository features advanced data visualization projects and analysis techniques to support decision making and present data-driven stories. Explore interactive dashboards, custom visualizations, and practical code examples designed to showcase deep understanding of visual analytics.
+Computer-vision pipelines and visualization tools for facial photograph preprocessing and fairness-focused model evaluation.
 
----
+Overview
+This repository contains utilities, notebooks, and scripts for preprocessing facial photographs, building reproducible computer-vision evaluation pipelines, and producing visualizations that make per-skin-tone performance easy to inspect.
 
-## Project Highlights
+Key features
+- Image preprocessing pipelines (face detection, alignment, color normalization)
+- Visualization tools for per-group performance and failure-mode analysis
+- Reproducible evaluation notebooks and scripts for computing per‑tone metrics
+- Helper utilities for reconstructing public datasets from source URLs and label files when licensing permits
 
-**Interactive Data Dashboards – Academic Project**  
-- Developed dynamic data dashboards using modern visualization libraries, enabling real-time data exploration for complex datasets.  
-- Leveraged Python and visualization tools (e.g., Plotly, Matplotlib, Seaborn) to build interactive and insightful visualizations.  
-- Showcased the ability to turn raw data into compelling visuals, supporting analysis and strategic decisions.
+Goals
+- Provide reusable tooling to audit and visualize model performance across Fitzpatrick skin types and other demographic bands
+- Enable independent developers and researchers to run per‑tone analyses with minimal setup
+- Share clear examples for fairness-focused evaluation and mitigation experiments
 
----
+Quickstart
+1. Clone the repo and open a Jupyter environment (local or Colab).
+2. Place images or reconstructed image paths under data/sources/ and label files under data/labels/.
+3. Run notebooks in /notebooks to reproduce sample preprocessing and evaluation flows.
+4. Use scripts in /eval to compute per‑tone metrics and generate visualization reports.
 
-## Features
+Recommended structure
+- /notebooks — analysis and reproducible evaluation notebooks
+- /src — preprocessing and model evaluation code
+- /eval — scripts for per‑tone metric computation and report generation
+- /data — expected location for source images and label files (not committed)
 
-1. **Custom Visualizations:** Go beyond standard charts with rich, interactive visuals.
-2. **Dashboard Development:** Integrate multiple plots and widgets for comprehensive analytical views.
-3. **Data Exploration:** Use visualization techniques to reveal trends, outliers, and patterns in data.
-4. **Practical Examples:** Jupyter Notebooks and scripts for end-to-end visual analytics workflows.
+Contact
+Enita Tankari — Independent Developer, Nitah Skincare Project
+anitaenita94@gmail.com | https://github.com/Arnitah
 
----
-
-## Example Tools and Libraries
-
-- Python 3
-- Jupyter Notebook
-- Plotly
-- Seaborn
-- Matplotlib
-- pandas
-
----
-
-## File Structure
-
-```
-notebooks/         # Main analytics projects in notebook format
-src/               # Visualization scripts and utilities
-data/              # Sample datasets for visualization
-README.md          # Project overview and usage
-```
-
----
-
-## Getting Started
-
-To get started with the examples:
-
-1. Clone the repo:
-    ```bash
-    git clone https://github.com/Arnitah/Advanced-Visual-Analytics-.git
-    ```
-2. Install Python packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Open a notebook or script to explore the visuals:
-    ```bash
-    jupyter notebook
-    ```
-
----
-
-## Want to Help?
-
-Contributions and suggestions are welcome! Open an issue or pull request with your ideas.
-
----
-
-## License
-
-MIT
-
----
-
-Feel free to explore, adapt, and use these visual analytics projects in your own work!
+Notes
+- This README intentionally focuses on evaluation and fairness tooling. If you want an expanded README with badges, license, contribution guidelines, or sample notebooks, tell me which additions you'd like and I will update the file.
